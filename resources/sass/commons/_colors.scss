@@ -1,0 +1,58 @@
+/*****LANDING-APP-COLORS******/
+$color-red: #EC1C24;
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-gray: #ADADAD;
+$color-gray-light: #9A9A9A;
+$color-green: #60D669;
+$color-text-contact: #555555;
+$color-placeholder: #424242;
+$color-input-contact: #F2F2F2;
+$color-green-button: #5DBA00;
+
+
+/*****LANDING-APP-TEXT-COLORS******/
+.text-white {
+    color: $color-white !important;
+}
+.text-gray {
+    color: $color-gray !important;
+}
+.text-red {
+    color: $color-red !important;
+}
+.text-black{
+    color: $color-black !important;
+}
+
+.text-black a {
+    color: black !important;
+}
+
+.text-black a:hover {
+    color: black;
+}
+
+.text-gray-light{
+    color: $color-gray-light !important;
+}
+.color-button-whatsapp {
+    color: $color-green !important;
+}
+.color-text-contact {
+    color: $color-text-contact !important;
+}
+.color-placeholder {
+    color: $color-placeholder !important;
+}
+.color-inputs {
+    color: $color-input-contact !important;
+}
+.color-button-property {
+    color: $color-green-button !important;
+}
+
+
+
+
+

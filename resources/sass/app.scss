@@ -1,0 +1,120 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Variables
+@import './commons/variables';
+
+//Colors
+@import './commons/colors';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+*{
+    //margin: 0;
+    //padding: 0;
+    //box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html, body {
+    background: #ffffff;
+    //min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-------------- Global Style ----------*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.m0 {
+    margin:0;
+}
+.p0 {
+    padding:0;
+}
+.float_left {
+    float: left;
+}
+.float_right {
+    float:right;
+}
+.clear_fix {
+    clear:both;
+}
+a {
+    text-decoration: none;
+    letter-spacing: .03em;
+}
+a:hover,
+a:focus {
+    outline:none;
+    text-decoration: none;
+}
+ul {
+    list-style-type:none;
+    padding:0;
+}
+button:focus {
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: .03em;
+}
+p {
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+}
+
+.font-bold{
+    color:white;
+    font-weight: 500!important;
+}
+
+.row {
+    /* --bs-gutter-x: 0.5rem; */
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.figure {
+    /* margin: 0 0 1rem; */
+}
+
+.notification-icon {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Espaciado entre la campana y la foto de perfil */
+}
+
+.notification-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red; /* Cambia el color según tu preferencia */
+    color: white;
+    border-radius: 50%;
+    width: 20px; /* Ancho del círculo */
+    height: 20px; /* Alto del círculo */
+    font-size: 12px; /* Tamaño de texto */
+    position: absolute;
+    top: -5px; /* Ajusta la posición vertical */
+    right: -5px; /* Ajusta la posición horizontal */
+    border: 2px solid white; /* Añade un borde blanco si lo deseas */
+}
+
+
+//ADMIN STYLES
+@import "./admin/app";
+

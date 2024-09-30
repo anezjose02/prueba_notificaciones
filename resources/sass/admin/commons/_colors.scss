@@ -1,0 +1,145 @@
+:root{
+    --color-blue-light: #B5C7D6;
+    --color-blue-medium: rgb(34, 65, 92);
+    --color-blue-dark: #10274A;
+    --color-blue-input: #6DB6BE;
+
+    --color-teal: #2597A3;
+    --color-teal-light: #9cc9ce;
+    --color-teal-medium: #0e7580;
+
+    --color-gray-light: #f4f4f4;
+    --color-gray-medium: #8f9092;
+    --color-black: #0a0909;
+    --color-black-light: #282828;
+    --color-green-normal: #9FBE48;
+
+    --color-overlay: rgba(34, 65, 92, .7);
+}
+
+.bg-blue-light{
+    background-color: var(--color-blue-light) !important;
+}
+.bg-blue-medium{
+    background-color: var(--color-blue-medium) !important;
+}
+
+.bg-black-dark {
+    background-color: var(--color-black) !important;
+}
+
+.bg-blue-dark{
+    background-color: var(--color-blue-dark) !important;
+}
+
+.text-blue-light{
+    color: var(--color-blue-light) !important;
+}
+
+.text-blue-imput{
+    color: var(--color-blue-input) !important;
+}
+
+.text-blue-input{
+    color: var(--color-blue-input) !important;
+}
+
+.text-black-input{
+    color: #000000 !important;
+}
+
+.text-blue-medium{
+    color: var(--color-blue-medium) !important;
+}
+
+.text-blue-dark{
+    color: var(--color-blue-dark) !important;
+}
+
+.text-white{
+    color: #FFFFFF !important;
+}
+
+.text-yellow{
+    color: gold !important;
+}
+
+.text-green{
+    color: forestgreen !important;
+}
+
+.text-red{
+    color: firebrick !important;
+}
+
+.text-teal {
+    color: var(--color-teal);
+}
+
+.text-teal-medium {
+    color: var(--color-teal-medium);
+}
+
+.btn-swa-cancel {
+    background-color: #ffffff !important;
+    border: 1px solid #000000 !important;
+    width: 150px;
+    height: 49px;
+    //padding: 15px 90px;
+    border-radius: 30px;
+    gap: 10px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-swa-confirm {
+    background-color: red !important;
+    border: 1px solid #000000 !important;
+    width: 150px;
+    height: 49px;
+    //padding: 15px 90px;
+    border-radius: 30px;
+    gap: 10px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-teal{
+    background-color: var(--color-teal) !important;
+}
+
+.bg-teal-light{
+    background-color: white !important;
+    color: black !important;
+}
+
+.bg-teal-medium{
+    background-color: red !important;
+    color: white !important;
+}
+
+.bg-gray-light{
+    background-color: var(--color-gray-light) !important;
+}
+
+.bg-gray-medium{
+    background-color: var(--color-gray-medium) !important;
+}
+
+.border-blue-input{
+    border: 1px solid var(--color-blue-input) !important;
+}
+
+.text-gray-medium{
+    color: var(--color-gray-medium) !important;
+}
+
+.border {
+    &-bottom-blue {
+        border-bottom: 2px solid var(--color-blue-input);
+    }
+}
